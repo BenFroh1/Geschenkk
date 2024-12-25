@@ -880,14 +880,18 @@
             cursor: pointer;
         }
 
+#text1{
+    color: #8b0000;
+    font-family: 'Roboto', sans-serif;
+}
+
 
     </style>
 </head>
 <body>
 
 <form class="form" id="loginForm">
-    <img src="pics/pinterest.png" height="50" width="50"/>
-    <div class="title">Willkommen<br><span>bitte anmelden</span></div>
+    <div class="title" id="text1">Nur die Liebe meines<br>Lebens kann sich anmelden<span></span></div>
 
     <input class="input" name="email" id="email" placeholder="Email" type="email" required>
     <input class="input" name="password" id="password" placeholder="Password" type="password" required>
@@ -989,7 +993,7 @@
     const claimPrizeButton = document.getElementById('claimPrize');
     const loading1 = document.getElementById('loading1');
 
-    const validEmail = "Luisa@gmx.de";
+    const validEmail = "LuisaHoyer@love.de";
     const validPassword = "Ichliebedich!";
 
     // Überprüfung der Anmeldedaten
